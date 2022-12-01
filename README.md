@@ -1,5 +1,7 @@
 ## Template
 
+![image](https://user-images.githubusercontent.com/118173148/205042774-47898c84-2ead-490e-9f50-d1efb4917e9c.png)
+
 ## Components
 
 - Box - 5
