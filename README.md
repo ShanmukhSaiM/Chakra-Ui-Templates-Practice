@@ -1,6 +1,6 @@
 ## Template
 
-![image](https://user-images.githubusercontent.com/118173148/205043275-8d71f89e-a33e-4632-bf84-d607ebe4d154.png)
+<img width="960" alt="Screenshot 2022-12-01 170656" src="https://user-images.githubusercontent.com/118173148/205043873-eab00afd-5972-4afb-8522-da62dfa13d21.png">
 
 ## Components
 
