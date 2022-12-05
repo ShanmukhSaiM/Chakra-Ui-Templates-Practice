@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, IconButton, Image, Select, Stack, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react'
+import { Box, Button, Flex, HStack, IconButton, Image, Select, Stack, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react'
 import myCrypto from '../assets/mycrypto.webp'
 import { BsGlobe, BsTwitter } from "react-icons/bs";
 import { CheckCircleIcon, ChevronUpIcon, InfoOutlineIcon } from '@chakra-ui/icons'
@@ -6,10 +6,12 @@ import { IoMdSave } from "react-icons/io";
 import { FaGoogleWallet, FaNetworkWired, FaHandsHelping } from "react-icons/fa";
 import { ImTarget } from "react-icons/im";
 import { RiOpenSourceLine } from "react-icons/ri";
+import { MdThumbsUpDown } from "react-icons/md";
 
 function RightComp() {
   return (
-    <TableContainer p='1rem' overflowY='scroll' w='100%'>
+    <Box position={'relative'}>
+      <TableContainer overflowY='scroll' w='100%'>
       <Table>
         <Thead position='sticky'>
           <Tr gap={1}>
@@ -81,7 +83,13 @@ function RightComp() {
           ))}
         </Flex>
       </Box>
+      
     </TableContainer>
+      <Button position='absolute' bottom='14rem' left='38rem' zIndex={1}  borderRadius='20px' color='white' leftIcon={<MdThumbsUpDown fontSize='1.5rem' />} bg='#1c1cff' variant='solid'>
+        Is this page helpful?
+      </Button>
+    </Box>
+    
   )
 }
 
